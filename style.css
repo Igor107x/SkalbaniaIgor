@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'sen-123', sans-serif;
+}
+#strona{
+    width: 800px;
+    margin: 0 auto;
+}
+#banner1{
+    background-image:url('japonia 1.svg');
+    background-size: cover;
+    background-position: center;
+    
+}
+#menu{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+#header1{
+    padding: 20px;
+    padding-top: 70px;
+    font-family: 'jockey-one-regular', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: white;
+    text-shadow: black 6px 6px 6px;
+}
+#ciekawostka{
+    font-family: 'jockey-one-regular', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 70px;
+    margin-bottom: 25px;
+    padding-left:20px;
+    padding-right:20px;
+    color: white;
+    text-shadow: black 6px 6px 6px;
+}
+body {
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+    width: 800px;
+    margin: 0 auto;
+}
+#szukaj{
+    margin-right: 300px;
+}
+#powitanie{
+    margin-top: 15px;
+    text-align: center;
+}
+.ciemny-motyw {
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+#backgroundcolor-btn {
+    color:white;
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+#backgroundcolor-btn-icon {
+    width: 50px;
+    height: 50px;
+}
+#auta {
+    margin: 15px;
+}
+.kartaa {
+    background-color: rgb(240, 240, 240);
+    border-left: 5px black solid;
+    margin: 15px;
+    padding-left: 20px;
+    display:flex;
+    flex-direction:row;
+}
+.kartaa h2 {
+    font-size: 25px;
+    padding: 10px;
+    margin: 0;
+    color: black;
+}
+.kartaa p {
+    padding: 10px;
+}
+.autozdj{
+    right: 0px;
+    display:flex;
+    height: 150px;
+    margin: 10px 10px 10px 0px;
+}
+.sen-123 {
+  font-family: "Sen", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.jockey-one-regular {
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
