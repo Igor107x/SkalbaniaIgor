@@ -59,6 +59,9 @@ body {
     background-color: rgb(31, 31, 31);
     color: white;
 }
+.ciemny-motyw .kartaa p{
+    color: black;
+}
 #backgroundcolor-btn {
     color:white;
     background-color: transparent;
@@ -75,7 +78,7 @@ body {
     margin: 15px;
 }
 .kartaa {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(205, 205, 205);
     border-left: 5px black solid;
     margin: 15px;
     padding-left: 20px;
